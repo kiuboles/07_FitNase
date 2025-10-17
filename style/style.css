@@ -1,0 +1,84 @@
+.text-primary-orange {
+    color: #ff6600;
+}
+.bg-dark-card {
+    background-color: #282828;
+}
+.bg-dark-light {
+    background-color: #222222;
+}
+.bg-dark-footer {
+    background-color: #151515;
+}
+.btn-primary-orange {
+    background-color: #ff6600;
+    color: white;
+    border: 1px solid #ff6600;
+}
+.btn-primary-orange:hover {
+    background-color: #ff6600;
+    filter: brightness(1.2);
+    color: white;
+    border-color: #ff6600;
+}
+
+body {
+    background-color: #1e1e1e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+#Inicio {
+    height: 100vh;
+    background-image: url('../images/inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+#galeria .card-img-top {
+    height: 250px;  
+    
+}
+
+.inicio-titulo {
+    color: white;
+    margin-top: 30%; 
+}
+
+#promociones .container .row .pareja{
+    border-radius: 50%;
+}
+
+.especialidades .bi {
+    background-color: rgb(238, 237, 237);
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    line-height: 80px; 
+    border-radius: 50%;
+}
+
+.hero-img {
+    display: none;
+}
+
+@media (min-width: 920px) {
+
+    .hero {
+        height: 85vh;
+    }
+
+    .inicio-titulo {
+        margin-top: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+}
